@@ -1,5 +1,5 @@
 name = "Victor Chege"
-age = "18"
+age "18
 citizenship = "Kenyan"
 
 residence = "Wangige"
