@@ -1,12 +1,9 @@
-import datetime
-day_of_week =
+from datetime import date
+date_today=date.today().strftime("%A %d %B %Y")
+print(day_today)
+day= str(input(Enter Todays day))
+if day == day_today:
+    print(f"Today is{day_today}\nCorrect!")
 
-
-# get current datetime
-dt = datetime.now()
-# get current datetime
-dt = datetime.now()
-print('Datetime is:', dt)
-
-# get day of week as an integer
-x = dt.weekday()
+elif day !=day_today:
+    print("Your answer is incorrect!\n..Enter correct day\n:")
